@@ -649,11 +649,17 @@
       data.dropdownOpenDirection = 'above';
     }
   }
+
+  function setActiveCountry(iso2:CountryCode) {
+    data.activeCountryCode = iso2;
+  }
+
   defineExpose({
     focus,
     blur,
     findCountryByDialCode,
     choose,
+    setActiveCountry,
   })
 </script>
 
