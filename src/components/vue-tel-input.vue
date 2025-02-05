@@ -652,6 +652,8 @@
   defineExpose({
     focus,
     blur,
+    findCountryByDialCode,
+    choose,
   })
 </script>
 
