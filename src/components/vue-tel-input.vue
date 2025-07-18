@@ -459,6 +459,7 @@
     return filteredCountries.value.find((country) => Number(country.dialCode) === dialCode);
   }
   function getItemClass(index: number, iso2: string) {
+    const selected = data.activeCountryCode === iso2;
     const highlighted = data.selectedIndex === index;
     const lastPreferred = index === props.preferredCountries.length - 1;
     const preferred = props.preferredCountries.some((c) => toUpperCase(c) === iso2);
@@ -466,6 +467,7 @@
       highlighted,
       'last-preferred': lastPreferred,
       preferred,
+      selected
     };
   }
   function choose(country: string | CountryObject) {
