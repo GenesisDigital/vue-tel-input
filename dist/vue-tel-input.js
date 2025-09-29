@@ -291,7 +291,7 @@ const _d = [
     "506"
   ],
   [
-    "Côte d’Ivoire",
+    "Ivory Coast",
     "ci",
     "225"
   ],
