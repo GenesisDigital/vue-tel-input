@@ -312,7 +312,7 @@ const allCountries: Country[] = [
     '506',
   ],
   [
-    'Côte d’Ivoire',
+    'Ivory Coast',
     'ci',
     '225',
   ],
