@@ -291,11 +291,6 @@ const _d = [
     "506"
   ],
   [
-    "Ivory Coast",
-    "ci",
-    "225"
-  ],
-  [
     "Croatia (Hrvatska)",
     "hr",
     "385"
@@ -575,6 +570,11 @@ const _d = [
     "it",
     "39",
     0
+  ],
+  [
+    "Ivory Coast",
+    "ci",
+    "225"
   ],
   [
     "Jamaica",
