@@ -312,11 +312,6 @@ const allCountries: Country[] = [
     '506',
   ],
   [
-    'Ivory Coast',
-    'ci',
-    '225',
-  ],
-  [
     'Croatia (Hrvatska)',
     'hr',
     '385',
@@ -596,6 +591,11 @@ const allCountries: Country[] = [
     'it',
     '39',
     0
+  ],
+  [
+    'Ivory Coast',
+    'ci',
+    '225',
   ],
   [
     'Jamaica',
